@@ -1,0 +1,31 @@
+* {
+    padding: 0px; /* é o espaço de separação */
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #d3b24d48;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px;
+}
+.container div{
+    height: 500px;
+    flex-grow: 1;
+}
+
+.container img{
+    height: 100%;
+    width: 100%;
+}
+
+.container img:hover{
+    transform: scale(1.3)
+}
+
